@@ -1,0 +1,139 @@
+@media (max-width: 1000px) {
+
+    .main {
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    .nav {
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+
+    .nav_bar {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--light_gold);
+        width: 70vw;
+        height: 100vh;
+        right: 0;
+        top: 100%;
+        position: absolute;
+        overflow: hidden;
+        z-index: 100;
+        padding: 10px;
+        font-size: 2rem;
+        font-weight: 500;
+        display: none;
+    }
+    .nav_bar.active {
+        display: block;
+    }
+    ul  {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav_bar a {
+        color: black;
+        margin-bottom: 15px;
+    }
+
+
+    #burger {
+        display: block;
+    }
+
+    .cart {
+        width: 100vw;
+    }
+    .main_txt h1 {
+        font-size: 2.5rem;
+    }
+
+    .main_txt p {
+        font-size: 1rem;
+    }
+
+    .main_txt {
+        width: 90%;
+        margin: auto;
+        left: 0;
+        top: 10%;
+    }
+
+    .main {
+        text-align: center;
+        height: 51vh;
+    }
+
+    .main_txt button,
+    .det_txt button {
+        font-size: 26px;
+    }
+
+    .main_bg {
+        height: 50vh;
+        background-size: 170%;
+    }
+
+    .det_img {
+        height: 40vh;
+        width: 95vw;
+        margin: auto;
+    }
+    .map {
+        width:95vw;
+    }
+    .map iframe {
+        height: 40vh;
+        width: 95vw;
+        margin: auto;
+    }
+    
+
+    .about .detail {
+        display: block;
+        width: 100vw;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .det_txt {
+        width: 95vw;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .det_txt button {
+        width: 60vw;
+    }
+
+    .head {
+        margin: 20px auto;
+    }
+
+    .footer {
+        height: 20vh;
+        text-align: center;
+        font-size: 0.5rem;
+        position: relative;
+    }
+
+    .foot {
+        width: 90vw;
+        position: unset;
+    }
+
+    .footer p {
+        font-size: 1.3rem;
+    }
+
+    .to_back {
+        height: 40px;
+        width: 40px;
+        right: 17px;
+        top: 21px;
+    }
+}
